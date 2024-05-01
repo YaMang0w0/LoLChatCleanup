@@ -32,3 +32,5 @@ LoL is located in the installation path\Logs\GameLogs\Time.
 
 ※ 관전 경우 전체 만 표기 될 수 있습니다 (관전은 테스트 못해봄 파일이 없어서 못했습니다.)※
 ※ In case of spectating, only the entire thing may be displayed (I can't test spectating because there is no file) ※
+
+(취미 개발자, 심심풀이로 만들어서 하드코딩 한점 양해 바람 😵‍💫)
