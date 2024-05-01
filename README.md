@@ -1,4 +1,6 @@
 # LoL Chat Cleanup Tools
+
+## Require https://dotnet.microsoft.com/ko-kr/download/dotnet-framework/thank-you/net48-web-installer
 [EN] 
 This program converts the LoL Chat `r3dlog.txt` text file for easier viewing.
 
@@ -15,6 +17,7 @@ I created this program out of boredom after watching YouTuber [Miaow baba](https
 ### r3dlog.txt file path location:
 LoL is located in the installation path\Logs\GameLogs\Time.
 # 롤 채팅 청소 도구
+## 프로그램을 실행하기 위하여 https://dotnet.microsoft.com/ko-kr/download/dotnet-framework/thank-you/net48-web-installer 필요 합니다.
 [한국어] 
 이 프로그램은 롤 채팅 `r3dlog.txt` 텍스트 파일을 보기 쉽게 변환 해주는 프로그램 입니다.
 
