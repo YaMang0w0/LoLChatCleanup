@@ -1,0 +1,10 @@
+D:\!yamang\LoLChatCleanup\bin\Debug\LoLChatCleanup.exe.config
+D:\!yamang\LoLChatCleanup\bin\Debug\LoLChatCleanup.exe
+D:\!yamang\LoLChatCleanup\bin\Debug\LoLChatCleanup.pdb
+D:\!yamang\LoLChatCleanup\obj\Debug\LoLChatCleanup.csproj.AssemblyReference.cache
+D:\!yamang\LoLChatCleanup\obj\Debug\LoLChatCleanup.MainForm.resources
+D:\!yamang\LoLChatCleanup\obj\Debug\LoLChatCleanup.Properties.Resources.resources
+D:\!yamang\LoLChatCleanup\obj\Debug\LoLChatCleanup.csproj.GenerateResource.cache
+D:\!yamang\LoLChatCleanup\obj\Debug\LoLChatCleanup.csproj.CoreCompileInputs.cache
+D:\!yamang\LoLChatCleanup\obj\Debug\LoLChatCleanup.exe
+D:\!yamang\LoLChatCleanup\obj\Debug\LoLChatCleanup.pdb
