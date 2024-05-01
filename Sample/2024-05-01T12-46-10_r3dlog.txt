@@ -1,0 +1,467 @@
+000000.000| ALWAYS| Logging started at 2024-05-01T12:46:10.162
+000000.003| ALWAYS|   CFG| CrashHandler(Sentry)
+000000.319| ALWAYS|   CFG| Command Line:  "103.219.131.62 5216 6NgUWYimbelwpi2JEpjc1w== 95761316" "-Product=LoL" "-PlayerID=95761316" "-GameID=7051115396" "-PlayerNameMode=ALIAS" "-GameBaseDir=F:\Riot Games\League of Legends" "-Region=KR" "-PlatformID=KR" "-Locale=ko_KR" "-SkipBuild" "-EnableCrashpad=true" "-EnableLNP" "-UseDX11=1:1" "-UseMetal=0:1" "-UseNewX3D" "-UseNewX3DFramebuffers" "-RiotClientPort=1271" "-RiotClientAuthToken=RK5IshmebERqKrEUeqyW-w" 
+000000.805| ALWAYS| Live Profiling enabled. Will overwrite old RPD.
+000000.807| ALWAYS|   CFG| Build Version: Version 14.9.580.2108 (Apr 26 2024/17:12:37) [PUBLIC] <Releases/14.9> ChangeList: 5802108
+000000.854| ALWAYS| LCURemotingClient: Initializing on port 1271
+000000.864| ALWAYS| LCURemotingClient: Connected to app process.
+000000.869| ALWAYS|  FLOW| Initializing Renderer
+000000.876| ALWAYS| r3dRenderLayer::Init enter
+000000.876| ALWAYS| r3dRenderLayer::Init() exit successfully
+000001.945| ALWAYS| Detected DX11 Feature Level: 11.0
+000001.945| ALWAYS| rr3dRenderLayer::InitDevice(XRes = 1920, YRes = 1080, BPP = 32) enter
+000001.945| ALWAYS| rr3dRenderLayer::InitDevice: Creating X3D device
+000001.946| ALWAYS| DXGI version: 1.6
+000001.947| ALWAYS| Detected Adapter 'NVIDIA GeForce RTX 2070 SUPER'
+000001.954| ALWAYS| DXGI: Tearing support enabled.
+000003.534| ALWAYS| DX11 feature level: 11.0
+000003.796| ALWAYS| Using X3D Platform: DX11
+000003.800| ALWAYS| X3D: Focus Gained
+000003.806| ALWAYS| r3dRenderLayer::RecreateOwnedResources
+000003.806| ALWAYS| r3dRenderLayer::InitResources exit successfully
+000003.923| ALWAYS| AudioManager: Wwise Version v2019.1.10 initialized.
+000003.941| ALWAYS|  FLOW| Push: Bootstrap complete
+000003.965| ALWAYS|  FLOW| Push: Patching  Current: Bootstrap
+000003.981| ALWAYS|  FLOW| Push: Patching complete
+000004.009| ALWAYS|  FLOW| Pop: Patching
+000004.022| ALWAYS|  FLOW| Pop: Patching complete  Current: Bootstrap
+000004.043| ALWAYS|  FLOW| Push: LoLCommon  Current: Bootstrap
+000004.207| ALWAYS|  FLOW| Push: LoLCommon complete
+000004.225| ALWAYS|  FLOW| Push: GameSession  Current: LoLCommon
+000004.238| ALWAYS| GameStartData::GameID=7051115396
+000004.239| ALWAYS| Client Clock Synchronization Started
+000004.240| ALWAYS| LCURemotingClient: Initializing on port 1271
+000004.240| ALWAYS|  CONN| Connecting to address (103.219.131.62) port (5216)
+000004.242| ALWAYS|  CONN| Waiting for response from game server...
+000004.242| ALWAYS|  FLOW| Push: GameSession complete
+000004.243| ALWAYS| LCURemotingClient: Connected to app process.
+000004.297| ALWAYS|  CONN| Hard Connect at LocalSimTime(0.000)
+000004.318| ALWAYS|   CLK| Replica[0] Scale negative delay correction: 0.011447
+000004.318| ALWAYS|   CLK| Replica[0]: Scale(1.00) LocalTime(0.000) SegmentStartTime(0.000) LocalOffset(2.388) Snap
+000004.318| ALWAYS|   CLK| Replica[0] Pause negative delay correction: 0.011818
+000004.318| ALWAYS|   CLK| Replica[0]: Command(Pause) LocalTime(0.000) SegmentStartTime(0.000) LocalOffset(2.387) Snap
+000004.319| ALWAYS|   CLK| Replica[1] Scale negative delay correction: 0.011921
+000004.319| ALWAYS|   CLK| Replica[1]: Scale(1.00) LocalTime(0.000) SegmentStartTime(3.795) LocalOffset(2.387) Snap
+000004.319| ALWAYS|   CLK| Replica[1] Pause negative delay correction: 0.011939
+000004.319| ALWAYS|   CLK| Replica[1]: Command(Unpause) LocalTime(3.795) SegmentStartTime(3.795) LocalOffset(2.387) Snap
+000004.349| ALWAYS|  CONN| Game Info Received ServerSimTime(0.000) PreviousDisconnectCount(0)
+000004.349| ALWAYS|  ROST| CONNECTION READY | TeamOrder 0) 'YaMang OwO#KR1' **LOCAL** - Champion(Teemo) SkinID(0) TeamBuilderRole(TOP) PUUID(5ed5b98c-cb6d-5466-86a5-25b90aa2982e) ConnectionState(Connected)
+000004.349| ALWAYS|  ROST| CONNECTION READY | TeamOrder 1) 'fldnfWF#KR1' - Champion(LeeSin) SkinID(41) TeamBuilderRole(JUNGLE) PUUID(9f8a996a-b7a5-5a0e-81c9-22bb70b006b7) ConnectionState(Disconnected)
+000004.349| ALWAYS|  ROST| CONNECTION READY | TeamOrder 2) '비입니다#KR1' - Champion(Yone) SkinID(55) TeamBuilderRole(MIDDLE) PUUID(60a725dc-9920-534d-9d97-4d9b5b1aff9a) ConnectionState(Connected)
+000004.349| ALWAYS|  ROST| CONNECTION READY | TeamOrder 3) '왁 코#KR1' - Champion(Yasuo) SkinID(9) TeamBuilderRole(BOTTOM) PUUID(4f3aef0a-342f-59d0-921e-2d315a8293aa) ConnectionState(Connected)
+000004.349| ALWAYS|  ROST| CONNECTION READY | TeamOrder 4) '강철죽#KR1' - Champion(Malphite) SkinID(27) TeamBuilderRole(UTILITY) PUUID(07696e0d-f334-5b52-8784-20972484094a) ConnectionState(Connected)
+000004.349| ALWAYS|  ROST| CONNECTION READY | TeamChaos 0) '강스터이 #KR1' - Champion(Skarner) SkinID(0) TeamBuilderRole(TOP) PUUID(3c766720-e1a9-5cb2-ab46-6daba4457ca1) ConnectionState(Disconnected)
+000004.349| ALWAYS|  ROST| CONNECTION READY | TeamChaos 1) 'CALLIK#KR1' - Champion(Garen) SkinID(13) TeamBuilderRole(JUNGLE) PUUID(f39da8c5-62d3-5f65-95cb-90d21f72967d) ConnectionState(Connected)
+000004.349| ALWAYS|  ROST| CONNECTION READY | TeamChaos 2) '전태양동무#KR1' - Champion(Morgana) SkinID(4) TeamBuilderRole(MIDDLE) PUUID(0d2c292a-fc16-50ae-98d7-94f400216d44) ConnectionState(Disconnected)
+000004.349| ALWAYS|  ROST| CONNECTION READY | TeamChaos 3) '짬처리전문가#KR1' - Champion(Jhin) SkinID(2) TeamBuilderRole(BOTTOM) PUUID(c52c5fd5-fe9f-5bea-998f-cc4b31af2b98) ConnectionState(Connected)
+000004.349| ALWAYS|  ROST| CONNECTION READY | TeamChaos 4) '야광수박#KR1' - Champion(Jax) SkinID(0) TeamBuilderRole(UTILITY) PUUID(6701db4f-3507-5e1d-898d-c21ec5d46b8b) ConnectionState(Connected)
+000004.350| ALWAYS|   CFG| MultiplayerSettings Encryption=true Compression=true MinimumSizeToCompressPayloadThreshold=0 CompressionLevel=3 Logging=false Wireless=false Redundancy=false Threshold=0 Resends=20 Timeout=8.000 TimeoutDisplay=3.000 MinLatency=0.000 
+000004.445| ALWAYS| LCUChatClientAsync: Chat session is "loaded".
+000004.562| ALWAYS|  CONN| Game Server Connection Established after 0.320 seconds, 0 retries
+000004.562| ALWAYS|  FLOW| Push: Gameplay  Current: GameSession
+000004.838| ALWAYS|   CFG| MultiplayerSettings Encryption=true Compression=true MinimumSizeToCompressPayloadThreshold=0 CompressionLevel=3 Logging=false Wireless=false Redundancy=false Threshold=0 Resends=20 Timeout=8.000 TimeoutDisplay=3.000 MinLatency=0.000 
+000005.048| ALWAYS| Successfully received v2 friends list: 
+000005.048| ALWAYS| Successfully received v2 summoner collection: 
+000005.048| ALWAYS| Successfully received v2 summoner with gameName 포로리빤스도둑 and tagLine KR1
+000005.049| ALWAYS| Successfully received v2 summoner with gameName 크아앙 and tagLine 사 메
+000005.049| ALWAYS| Successfully received v2 summoner with gameName 두콩22 and tagLine KR1
+000005.049| ALWAYS| Successfully received v2 summoner with gameName 메이플서버는크로아닉네임은독학 and tagLine 0119
+000005.049| ALWAYS| Successfully received v2 summoner with gameName amuse and tagLine KR1
+000005.049| ALWAYS| Successfully received v2 summoner with gameName 전멸그랩탈진 and tagLine KR1
+000005.049| ALWAYS| Successfully received v2 summoner with gameName 나로양 and tagLine KR1
+000005.049| ALWAYS| Successfully received v2 summoner with gameName 깜찍지혜 and tagLine KR1
+000005.049| ALWAYS| Successfully received v2 summoner with gameName 승연쿵 and tagLine 0707
+000005.049| ALWAYS| Successfully received v2 summoner with gameName 최 율 and tagLine KR1
+000005.049| ALWAYS| Successfully received v2 summoner with gameName 한타 공포증 and tagLine KR1
+000005.049| ALWAYS| Successfully received v2 summoner with gameName 백은설 and tagLine 2222
+000005.049| ALWAYS| Successfully received v2 summoner with gameName Hee and tagLine 4444
+000005.049| ALWAYS| Successfully received v2 summoner with gameName 황희봉 and tagLine 트 위 치
+000005.049| ALWAYS| Successfully received v2 summoner with gameName 커 피 and tagLine 캬라멜
+000005.049| ALWAYS| Successfully received v2 summoner with gameName 지리산오징어 and tagLine KR1
+000005.049| ALWAYS| Successfully received v2 summoner with gameName 뉴비사용법 and tagLine 늅늅늅
+000005.049| ALWAYS| Successfully received v2 summoner with gameName 대구미녀 and tagLine KR1
+000005.049| ALWAYS| Successfully received v2 summoner with gameName 아 잠깐만 and tagLine 15307
+000005.049| ALWAYS| Successfully received v2 summoner with gameName 노가리님 and tagLine KR1
+000005.149| ALWAYS| Successfully received v2 muted players list: 
+000005.149| ALWAYS| Successfully received v2 summoner collection: 
+000005.231| ALWAYS| Set focus to app
+000005.232| ALWAYS|   CFG| OS Version: 11  Professional, 22631 CPU: Intel(R) Core(TM) i7-10700K CPU @ 3.80GHz, (8 cores) Instruction Set Level 7Physical memory: 34359738368Display info: NVIDIA GeForce RTX 2070 SUPER 4293918720 31.0.15.5222 Driver: 31.0.15.5222
+000005.287| ALWAYS|  FLOW| Push: Gameplay complete
+000005.302| ALWAYS|  FLOW| Push: LoadingScreen  Current: Gameplay
+000005.314| ALWAYS| LCURemotingClient: Initializing on port 1271
+000005.316| ALWAYS| LCURemotingClient: Connected to app process.
+000005.319| ALWAYS| LCUVoiceChatClient: Disabling voice, channel not available at startup
+000005.734| ALWAYS|  FLOW| Begin Async Loading
+000005.734| ALWAYS|  FLOW| Push: LoadingScreen complete
+000005.940| ALWAYS| Client Clock: InitialSync->Converging after 1.701 seconds. Offset(2.400194) Outliers(1) Delay(0.003798) DelayVariance(0.000000)
+000007.565| ALWAYS|  LOAD| LOADING: Begin Game Object Update
+000007.569| ALWAYS|  LOAD| LOADING: End Game Object Update
+000008.349| ALWAYS| PreloadGlobalEffects
+000008.409| ALWAYS| PreloadGlobalEffects Finished
+000008.668| ALWAYS| Successfully received v2 buddy create/update payload: 
+000008.668| ALWAYS| Successfully received v2 buddy gameName: 메이플서버는크로아닉네임은독학, tagLine: 0119, summonerId: 2483065978324128
+000009.060| ALWAYS| X3D: Focus Lost
+000010.834| ALWAYS|  FLOW| Async Loading Complete
+000010.843| ALWAYS|  FLOW| Data Load Complete
+000010.843| ALWAYS|  FLOW| Start Main Loop
+000010.894| ALWAYS|   CLK| Replica[0]: Scale(1.00) LocalTime(0.000) SegmentStartTime(0.000) LocalOffset(2.400) Snap
+000010.894| ALWAYS|   CLK| Replica[0]: Command(Pause) LocalTime(0.020) SegmentStartTime(0.000) LocalOffset(2.400) Snap
+000010.894| ALWAYS|   CLK| Replica[1]: Scale(1.00) LocalTime(10.395) SegmentStartTime(10.363) LocalOffset(2.400) Snap
+000010.894| ALWAYS|   CLK| Replica[1]: Command(Unpause) LocalTime(10.383) SegmentStartTime(10.363) LocalOffset(2.400) Snap
+000010.894| ALWAYS|   CLK| Replica[0]: Scale(1.00) LocalTime(0.020) SegmentStartTime(0.000) LocalOffset(2.400) Snap
+000010.894| ALWAYS|   CLK| Replica[0]: Command(Pause) LocalTime(0.020) SegmentStartTime(0.000) LocalOffset(2.400) Snap
+000010.894| ALWAYS|   CLK| Replica[1]: Scale(1.00) LocalTime(10.383) SegmentStartTime(10.363) LocalOffset(2.400) Snap
+000010.894| ALWAYS|   CLK| Replica[1]: Command(Unpause) LocalTime(10.383) SegmentStartTime(10.363) LocalOffset(2.400) Snap
+000010.894| ALWAYS|  FLOW| Switching Game State from GAMESTATE_PREGAME to GAMESTATE_SPAWN for reason Received StartSpawn packet.
+000010.902| ALWAYS| Trying to find if v2 gameNameAndTagline YaMang OwO#KR1 is in buddy list returned false
+000011.033| ALWAYS| Trying to find if v2 gameNameAndTagline fldnfWF#KR1 is in buddy list returned false
+000011.080| ALWAYS| Trying to find if v2 gameNameAndTagline 비입니다#KR1 is in buddy list returned false
+000011.123| ALWAYS| Trying to find if v2 gameNameAndTagline 왁 코#KR1 is in buddy list returned false
+000011.160| ALWAYS| Trying to find if v2 gameNameAndTagline 강철죽#KR1 is in buddy list returned false
+000011.206| ALWAYS| Trying to find if v2 gameNameAndTagline 강스터이 #KR1 is in buddy list returned false
+000011.236| ALWAYS| Trying to find if v2 gameNameAndTagline CALLIK#KR1 is in buddy list returned false
+000011.281| ALWAYS| Trying to find if v2 gameNameAndTagline 전태양동무#KR1 is in buddy list returned false
+000011.314| ALWAYS| Trying to find if v2 gameNameAndTagline 짬처리전문가#KR1 is in buddy list returned false
+000011.339| ALWAYS| Trying to find if v2 gameNameAndTagline 야광수박#KR1 is in buddy list returned false
+000011.376| ALWAYS|  FLOW| Spawning completed
+000011.376| ALWAYS|  FLOW| SEJ-BC89AC41
+000011.382| ALWAYS|  FLOW| SEJ-6671BCAD
+000012.182| ALWAYS| Successfully received v2 buddy create/update payload: 
+000012.182| ALWAYS| Successfully received v2 buddy gameName: 메이플서버는크로아닉네임은독학, tagLine: 0119, summonerId: 2483065978324128
+000012.889| ALWAYS| X3D: Focus Gained
+000018.114| ALWAYS| Successfully received v2 buddy create/update payload: 
+000018.114| ALWAYS| Successfully received v2 buddy gameName: 메이플서버는크로아닉네임은독학, tagLine: 0119, summonerId: 2483065978324128
+000033.906| ALWAYS| X3D: Focus Lost
+000041.495| ALWAYS|   CLK| Replica[0]: Command(Unpause) LocalTime(0.020) SegmentStartTime(0.000) LocalOffset(2.400) Interpolate
+000041.496| ALWAYS|  FLOW| Switching Game State from GAMESTATE_SPAWN to GAMESTATE_GAMELOOP for reason Received Game Start Packet.
+000041.499| ALWAYS|  FLOW| Pop: LoadingScreen
+000041.553| ALWAYS|  FLOW| Pop: LoadingScreen complete  Current: Gameplay
+000041.582|  ERROR| >>> BuffHashMap::HashToName - Match not found for hash 074fd631
+000041.584| ALWAYS|  FLOW| SEJ-8711AB1A 0.0199528
+000041.645| ALWAYS|  FLOW| SEJ-9651ACAB
+000041.651| ALWAYS|  FLOW| SEJ-B2890C00
+000041.656| ALWAYS| GAMESTATE_GAMELOOP UpdateVis
+000041.686| ALWAYS| GAMESTATE_GAMELOOP AudioUpdate
+000041.686| ALWAYS| GAMESTATE_GAMELOOP EndRender & EndFrame
+000041.687| ALWAYS|  FLOW| SEJ-891ACC45
+000061.855| ALWAYS| X3D: Focus Gained
+000064.487| ALWAYS| Chat received valid message: dkasdf with speaker DisplayName YaMang OwO#KR1 and preamble <font color="#40C1FF">[팀] YaMang OwO (티모): </font>
+000072.697| ALWAYS| X3D: Focus Lost
+000075.536| ALWAYS| Chat received valid message: 안녕뇽 with speaker DisplayName 전태양동무#KR1 and preamble <font color="#FF3333">[전체] 전태양동무 (모르가나): </font>
+000077.788| ALWAYS| Chat received valid message: 반가워요 with speaker DisplayName 전태양동무#KR1 and preamble <font color="#FF3333">[전체] 전태양동무 (모르가나): </font>
+000080.734| ALWAYS| Chat received valid message: 오늘은 근로자의날 with speaker DisplayName 전태양동무#KR1 and preamble <font color="#FF3333">[전체] 전태양동무 (모르가나): </font>
+000086.654| ALWAYS| Chat received invalid message: 경고: 소환사의 제단 밖으로 나가지 않으면 자리비움으로 신고됩니다.
+000088.437| ALWAYS| X3D: Focus Gained
+000089.123| ALWAYS| Successfully received v2 buddy create/update payload: 
+000089.123| ALWAYS| Successfully received v2 buddy gameName: 메이플서버는크로아닉네임은독학, tagLine: 0119, summonerId: 2483065978324128
+000125.799| ALWAYS| Chat received valid message: 야이 근로자야 with speaker DisplayName 강철죽#KR1 and preamble <font color="#40C1FF">[전체] 강철죽 (말파이트): </font>
+000126.929| ALWAYS| Client Clock: Converging->Synchronized after 120.989 seconds. Offset(2.399693) Outliers(2) Delay(0.003773) DelayVariance(0.000001)
+000128.827| ALWAYS| Chat received valid message: 걍들이박지 with speaker DisplayName fldnfWF#KR1 and preamble <font color="#40C1FF">[팀] fldnfWF (리 신): </font>
+000129.759| ALWAYS| Chat received valid message: 그만 좀 와라 with speaker DisplayName 강철죽#KR1 and preamble <font color="#40C1FF">[전체] 강철죽 (말파이트): </font>
+000130.134| ALWAYS| Chat received valid message: 이제 로 시작하네 with speaker DisplayName YaMang OwO#KR1 and preamble <font color="#40C1FF">[팀] YaMang OwO (티모): </font>
+000146.193| ALWAYS| Chat received valid message: 헛둘 셋넷 with speaker DisplayName YaMang OwO#KR1 and preamble <font color="#40C1FF">[전체] YaMang OwO (티모): </font>
+000176.600| ALWAYS| SummonerBannerComponentClient spawned banner at map locator: 3659609901
+000416.907| ALWAYS| Chat received valid message: 야 이 근로자야 with speaker DisplayName 강철죽#KR1 and preamble <font color="#40C1FF">[전체] 강철죽 (말파이트): </font>
+000420.674| ALWAYS| Chat received valid message: ?? with speaker DisplayName 전태양동무#KR1 and preamble <font color="#FF3333">[전체] 전태양동무 (모르가나): </font>
+000426.948| ALWAYS| Chat received valid message: 화이팅 with speaker DisplayName 강철죽#KR1 and preamble <font color="#40C1FF">[전체] 강철죽 (말파이트): </font>
+000465.886| ALWAYS| Chat received valid message: 잭스는 어느라인임?? with speaker DisplayName YaMang OwO#KR1 and preamble <font color="#40C1FF">[팀] YaMang OwO (티모): </font>
+000469.845| ALWAYS| Chat received valid message: 서폿 with speaker DisplayName 강철죽#KR1 and preamble <font color="#40C1FF">[팀] 강철죽 (말파이트): </font>
+000485.988| ALWAYS| Chat received valid message: 읭 왜 탑까지 ㄷㄷ with speaker DisplayName YaMang OwO#KR1 and preamble <font color="#40C1FF">[팀] YaMang OwO (티모): </font>
+000535.441| ALWAYS| Chat received valid message: 아 with speaker DisplayName 강철죽#KR1 and preamble <font color="#40C1FF">[팀] 강철죽 (말파이트): </font>
+000592.620| ALWAYS| Chat received valid message: 니네 엄MA 푸바오로 만들어버린다 with speaker DisplayName 왁 코#KR1 and preamble <font color="#40C1FF">[팀] 왁 코 (야스오): </font>
+000596.392| ALWAYS| Chat received valid message: 그런짓 ㄴㄴ with speaker DisplayName 왁 코#KR1 and preamble <font color="#40C1FF">[팀] 왁 코 (야스오): </font>
+000598.922| ALWAYS| Chat received valid message: 앙 with speaker DisplayName fldnfWF#KR1 and preamble <font color="#40C1FF">[팀] fldnfWF (리 신): </font>
+000610.609| ALWAYS| Chat received valid message: 헉 with speaker DisplayName YaMang OwO#KR1 and preamble <font color="#40C1FF">[팀] YaMang OwO (티모): </font>
+000611.637| ALWAYS| Chat received valid message: 패드립 with speaker DisplayName YaMang OwO#KR1 and preamble <font color="#40C1FF">[팀] YaMang OwO (티모): </font>
+000638.436| ALWAYS| Chat received valid message: 형 화이팅 with speaker DisplayName 전태양동무#KR1 and preamble <font color="#FF3333">[전체] 전태양동무 (모르가나): </font>
+000645.815| ALWAYS| Chat received valid message: 너 좀 한다? with speaker DisplayName 강철죽#KR1 and preamble <font color="#40C1FF">[전체] 강철죽 (말파이트): </font>
+000717.636| ALWAYS| Chat received valid message: 님 쓰잘데기없는데 안오는게 더도움될거같아요\ with speaker DisplayName 왁 코#KR1 and preamble <font color="#40C1FF">[팀] 왁 코 (야스오): </font>
+000724.109| ALWAYS| Chat received valid message: ㅋ with speaker DisplayName 강스터이 #KR1 and preamble <font color="#FF3333">[전체] 강스터이  (스카너): </font>
+000727.145| ALWAYS| Chat received valid message: 티모 with speaker DisplayName 강스터이 #KR1 and preamble <font color="#FF3333">[전체] 강스터이  (스카너): </font>
+000794.451| ALWAYS| Chat received valid message: ㅋㅋㅋ with speaker DisplayName YaMang OwO#KR1 and preamble <font color="#40C1FF">[전체] YaMang OwO (티모): </font>
+000841.131| ALWAYS| Chat received valid message: 너네 잭스 왜자꾸 탑에 오냐! with speaker DisplayName YaMang OwO#KR1 and preamble <font color="#40C1FF">[전체] YaMang OwO (티모): </font>
+000857.283| ALWAYS| Successfully received v2 buddy create/update payload: 
+000857.283| ALWAYS| Successfully received v2 buddy gameName: 메이플서버는크로아닉네임은독학, tagLine: 0119, summonerId: 2483065978324128
+000875.272| ALWAYS| Successfully received v2 buddy create/update payload: 
+000875.272| ALWAYS| Successfully received v2 buddy gameName: 메이플서버는크로아닉네임은독학, tagLine: 0119, summonerId: 2483065978324128
+000879.697| ALWAYS| Successfully received v2 buddy create/update payload: 
+000879.697| ALWAYS| Successfully received v2 buddy gameName: 메이플서버는크로아닉네임은독학, tagLine: 0119, summonerId: 2483065978324128
+000881.606| ALWAYS| Successfully received v2 buddy create/update payload: 
+000881.606| ALWAYS| Successfully received v2 buddy gameName: 메이플서버는크로아닉네임은독학, tagLine: 0119, summonerId: 2483065978324128
+000883.013| ALWAYS| Successfully received v2 buddy create/update payload: 
+000883.013| ALWAYS| Successfully received v2 buddy gameName: 메이플서버는크로아닉네임은독학, tagLine: 0119, summonerId: 2483065978324128
+000883.817| ALWAYS| Successfully received v2 buddy create/update payload: 
+000883.817| ALWAYS| Successfully received v2 buddy gameName: 메이플서버는크로아닉네임은독학, tagLine: 0119, summonerId: 2483065978324128
+000935.667| ALWAYS| Chat received valid message: 안대! with speaker DisplayName YaMang OwO#KR1 and preamble <font color="#40C1FF">[전체] YaMang OwO (티모): </font>
+000947.308| ALWAYS| Chat received valid message: 개빠르네 with speaker DisplayName 강철죽#KR1 and preamble <font color="#40C1FF">[팀] 강철죽 (말파이트): </font>
+000949.893| ALWAYS| Chat received valid message: 그러게 ㅋㅋ with speaker DisplayName YaMang OwO#KR1 and preamble <font color="#40C1FF">[팀] YaMang OwO (티모): </font>
+000956.603| ALWAYS| Chat received valid message: ㅋㅋㅋㅋㅋㅋㅋㅋ with speaker DisplayName 강스터이 #KR1 and preamble <font color="#FF3333">[전체] 강스터이  (스카너): </font>
+000957.667| ALWAYS| Chat received valid message: 스카너 with speaker DisplayName YaMang OwO#KR1 and preamble <font color="#40C1FF">[전체] YaMang OwO (티모): </font>
+000961.279| ALWAYS| Chat received valid message: 쥰내 바퀴벌레같아 with speaker DisplayName YaMang OwO#KR1 and preamble <font color="#40C1FF">[전체] YaMang OwO (티모): </font>
+000964.485| ALWAYS| Chat received valid message: ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ with speaker DisplayName 강철죽#KR1 and preamble <font color="#40C1FF">[팀] 강철죽 (말파이트): </font>
+000968.860| ALWAYS| Chat received valid message: ㅋㅋㅋㅋ 너도 with speaker DisplayName 강스터이 #KR1 and preamble <font color="#FF3333">[전체] 강스터이  (스카너): </font>
+000975.679| ALWAYS| X3D: Focus Lost
+000977.497| ALWAYS| Chat received valid message: 원조 벌래잖아 with speaker DisplayName 강스터이 #KR1 and preamble <font color="#FF3333">[전체] 강스터이  (스카너): </font>
+000979.435| ALWAYS| X3D: Focus Gained
+000996.077| ALWAYS| Chat received valid message: 티모는 with speaker DisplayName YaMang OwO#KR1 and preamble <font color="#40C1FF">[전체] YaMang OwO (티모): </font>
+000998.706| ALWAYS| Chat received valid message: 귀여움 with speaker DisplayName YaMang OwO#KR1 and preamble <font color="#40C1FF">[전체] YaMang OwO (티모): </font>
+001026.488| ALWAYS| Chat received valid message: 리쉬감사영 with speaker DisplayName fldnfWF#KR1 and preamble <font color="#40C1FF">[팀] fldnfWF (리 신): </font>
+001056.106| ALWAYS| Chat received valid message: 고마우면 잘좀 하세영 with speaker DisplayName 왁 코#KR1 and preamble <font color="#40C1FF">[팀] 왁 코 (야스오): </font>
+001067.803| ALWAYS| Chat received valid message: 아니 ㅋㅋ with speaker DisplayName YaMang OwO#KR1 and preamble <font color="#40C1FF">[팀] YaMang OwO (티모): </font>
+001072.397| ALWAYS| Chat received valid message: 애들 왜 다 탑에왘ㅋㅋ with speaker DisplayName YaMang OwO#KR1 and preamble <font color="#40C1FF">[팀] YaMang OwO (티모): </font>
+001096.410| ALWAYS| Successfully received v2 buddy create/update payload: 
+001096.410| ALWAYS| Successfully received v2 buddy gameName: 승연쿵, tagLine: 0707, summonerId: 58660779
+001097.919| ALWAYS| Successfully received v2 buddy create/update payload: 
+001097.919| ALWAYS| Successfully received v2 buddy gameName: 승연쿵, tagLine: 0707, summonerId: 58660779
+001102.945| ALWAYS| Successfully received v2 buddy create/update payload: 
+001102.945| ALWAYS| Successfully received v2 buddy gameName: 승연쿵, tagLine: 0707, summonerId: 58660779
+001115.306| ALWAYS| Successfully received v2 buddy create/update payload: 
+001115.306| ALWAYS| Successfully received v2 buddy gameName: 승연쿵, tagLine: 0707, summonerId: 58660779
+001129.378| ALWAYS| Successfully received v2 buddy create/update payload: 
+001129.378| ALWAYS| Successfully received v2 buddy gameName: 승연쿵, tagLine: 0707, summonerId: 58660779
+001133.101| ALWAYS| Successfully received v2 buddy create/update payload: 
+001133.101| ALWAYS| Successfully received v2 buddy gameName: 승연쿵, tagLine: 0707, summonerId: 58660779
+001134.106| ALWAYS| Successfully received v2 buddy create/update payload: 
+001134.106| ALWAYS| Successfully received v2 buddy gameName: 승연쿵, tagLine: 0707, summonerId: 58660779
+001136.118| ALWAYS| Successfully received v2 buddy create/update payload: 
+001136.118| ALWAYS| Successfully received v2 buddy gameName: 승연쿵, tagLine: 0707, summonerId: 58660779
+001147.341| ALWAYS| Chat received valid message: ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ with speaker DisplayName fldnfWF#KR1 and preamble <font color="#40C1FF">[전체] fldnfWF (리 신): </font>
+001150.468| ALWAYS| Chat received valid message: 야소 벌레같네 with speaker DisplayName fldnfWF#KR1 and preamble <font color="#40C1FF">[전체] fldnfWF (리 신): </font>
+001157.226| ALWAYS| Successfully received v2 buddy create/update payload: 
+001157.226| ALWAYS| Successfully received v2 buddy gameName: 승연쿵, tagLine: 0707, summonerId: 58660779
+001161.645| ALWAYS| Successfully received v2 buddy create/update payload: 
+001161.645| ALWAYS| Successfully received v2 buddy gameName: 승연쿵, tagLine: 0707, summonerId: 58660779
+001167.053| ALWAYS| Chat received valid message: 리신형 왤케 화났어 with speaker DisplayName CALLIK#KR1 and preamble <font color="#FF3333">[전체] CALLIK (가렌): </font>
+001179.540| ALWAYS| Chat received valid message: 원래 저럼 with speaker DisplayName 왁 코#KR1 and preamble <font color="#40C1FF">[전체] 왁 코 (야스오): </font>
+001185.245| ALWAYS| Chat received valid message: 나 with speaker DisplayName 전태양동무#KR1 and preamble <font color="#FF3333">[전체] 전태양동무 (모르가나): </font>
+001186.947| ALWAYS| Chat received valid message: 강 ㄱ with speaker DisplayName 전태양동무#KR1 and preamble <font color="#FF3333">[전체] 전태양동무 (모르가나): </font>
+001187.913| ALWAYS| Chat received valid message: 그만해 with speaker DisplayName 전태양동무#KR1 and preamble <font color="#FF3333">[전체] 전태양동무 (모르가나): </font>
+001194.386| ALWAYS| Chat received valid message: 니떄문임 with speaker DisplayName CALLIK#KR1 and preamble <font color="#FF3333">[전체] CALLIK (가렌): </font>
+001194.648| ALWAYS| Chat received valid message: 근로자의 날이야 with speaker DisplayName 전태양동무#KR1 and preamble <font color="#FF3333">[전체] 전태양동무 (모르가나): </font>
+001195.579| ALWAYS| Chat received valid message: 스오ㅓ야 with speaker DisplayName CALLIK#KR1 and preamble <font color="#FF3333">[전체] CALLIK (가렌): </font>
+001202.419| ALWAYS| Chat received valid message: 야이 근로자야 with speaker DisplayName 강철죽#KR1 and preamble <font color="#40C1FF">[전체] 강철죽 (말파이트): </font>
+001213.846| ALWAYS| Chat received valid message: 으앜 with speaker DisplayName YaMang OwO#KR1 and preamble <font color="#40C1FF">[전체] YaMang OwO (티모): </font>
+001232.573| ALWAYS| Chat received valid message: 리신 with speaker DisplayName 왁 코#KR1 and preamble <font color="#40C1FF">[팀] 왁 코 (야스오): </font>
+001234.270| ALWAYS| Chat received valid message: 아이언이네 with speaker DisplayName 왁 코#KR1 and preamble <font color="#40C1FF">[팀] 왁 코 (야스오): </font>
+001245.245| ALWAYS| Chat received valid message: 하는꼬라지가어쩐지 개벌레같더니 ㅋㅋ with speaker DisplayName 왁 코#KR1 and preamble <font color="#40C1FF">[팀] 왁 코 (야스오): </font>
+001256.584| ALWAYS| Chat received valid message: 티모 ㅋㅋ with speaker DisplayName 강스터이 #KR1 and preamble <font color="#FF3333">[전체] 강스터이  (스카너): </font>
+001261.783| ALWAYS| Chat received valid message: 리쉬 ㄳㄳ ㅋㅋ with speaker DisplayName 왁 코#KR1 and preamble <font color="#40C1FF">[팀] 왁 코 (야스오): </font>
+001279.587| ALWAYS| Chat received valid message: 힘의 차이가 늦겨지나요 with speaker DisplayName 강스터이 #KR1 and preamble <font color="#FF3333">[전체] 강스터이  (스카너): </font>
+001352.131| ALWAYS| Chat received valid message: 와하 ㅋㅋ with speaker DisplayName 전태양동무#KR1 and preamble <font color="#FF3333">[전체] 전태양동무 (모르가나): </font>
+001352.801| ALWAYS| Chat received valid message: 리신 with speaker DisplayName 전태양동무#KR1 and preamble <font color="#FF3333">[전체] 전태양동무 (모르가나): </font>
+001354.577| ALWAYS| Chat received valid message: 벽 큐 with speaker DisplayName 전태양동무#KR1 and preamble <font color="#FF3333">[전체] 전태양동무 (모르가나): </font>
+001357.650| ALWAYS| Chat received valid message: ㅋㅋㅋ with speaker DisplayName 전태양동무#KR1 and preamble <font color="#FF3333">[전체] 전태양동무 (모르가나): </font>
+001358.717| ALWAYS| Chat received valid message: 리신 지린다 ㅋ with speaker DisplayName 왁 코#KR1 and preamble <font color="#40C1FF">[전체] 왁 코 (야스오): </font>
+001359.183| ALWAYS| Chat received valid message: ㅋㅋㅋㅋㅋㅋ with speaker DisplayName 전태양동무#KR1 and preamble <font color="#FF3333">[전체] 전태양동무 (모르가나): </font>
+001366.807| ALWAYS| Chat received valid message: ㅋㅋ with speaker DisplayName YaMang OwO#KR1 and preamble <font color="#40C1FF">[팀] YaMang OwO (티모): </font>
+001366.905| ALWAYS| Chat received valid message: 벌레는 리신이였네 ㅋ with speaker DisplayName 왁 코#KR1 and preamble <font color="#40C1FF">[전체] 왁 코 (야스오): </font>
+001368.091| ALWAYS| Chat received valid message: 탱티모다 with speaker DisplayName YaMang OwO#KR1 and preamble <font color="#40C1FF">[팀] YaMang OwO (티모): </font>
+001391.000| ALWAYS| Chat received valid message: 아깝다ㅜ with speaker DisplayName fldnfWF#KR1 and preamble <font color="#40C1FF">[팀] fldnfWF (리 신): </font>
+001395.904| ALWAYS| Chat received valid message: 응 안돼 요네야.. with speaker DisplayName CALLIK#KR1 and preamble <font color="#FF3333">[전체] CALLIK (가렌): </font>
+001416.025| ALWAYS| Chat received valid message: ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ with speaker DisplayName 전태양동무#KR1 and preamble <font color="#FF3333">[전체] 전태양동무 (모르가나): </font>
+001417.088| ALWAYS| Chat received valid message: ㅋㅋㅋㅋㅋ with speaker DisplayName 야광수박#KR1 and preamble <font color="#FF3333">[전체] 야광수박 (잭스): </font>
+001417.425| ALWAYS| Chat received valid message: ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ with speaker DisplayName CALLIK#KR1 and preamble <font color="#FF3333">[전체] CALLIK (가렌): </font>
+001418.153| ALWAYS| Chat received valid message: 말파야 with speaker DisplayName 전태양동무#KR1 and preamble <font color="#FF3333">[전체] 전태양동무 (모르가나): </font>
+001420.087| ALWAYS| Chat received valid message: ㅋㅋㅋㅋㅋㅋㅋㅋ with speaker DisplayName 짬처리전문가#KR1 and preamble <font color="#FF3333">[전체] 짬처리전문가 (진): </font>
+001420.889| ALWAYS| Chat received valid message: 저거 with speaker DisplayName 야광수박#KR1 and preamble <font color="#FF3333">[전체] 야광수박 (잭스): </font>
+001421.388| ALWAYS| Chat received valid message: 넌 진짜 근로 해야겠다 with speaker DisplayName 전태양동무#KR1 and preamble <font color="#FF3333">[전체] 전태양동무 (모르가나): </font>
+001423.325| ALWAYS| Chat received valid message: 야 with speaker DisplayName 강철죽#KR1 and preamble <font color="#40C1FF">[전체] 강철죽 (말파이트): </font>
+001424.576| ALWAYS| Chat received valid message: 편집핵서 with speaker DisplayName 야광수박#KR1 and preamble <font color="#FF3333">[전체] 야광수박 (잭스): </font>
+001428.135| ALWAYS| Chat received valid message: 오늘 근로자의 날이라며 with speaker DisplayName 강철죽#KR1 and preamble <font color="#40C1FF">[전체] 강철죽 (말파이트): </font>
+001429.698| ALWAYS| Chat received valid message: 궁쓰고 뭃음표 with speaker DisplayName 야광수박#KR1 and preamble <font color="#FF3333">[전체] 야광수박 (잭스): </font>
+001438.823| ALWAYS| Chat received valid message: 잭스님 with speaker DisplayName 강철죽#KR1 and preamble <font color="#40C1FF">[전체] 강철죽 (말파이트): </font>
+001444.220| ALWAYS| Chat received valid message: 설명을 똑바로 해주세요. with speaker DisplayName 강철죽#KR1 and preamble <font color="#40C1FF">[전체] 강철죽 (말파이트): </font>
+001459.709| ALWAYS| Chat received valid message: 귀찮 with speaker DisplayName 야광수박#KR1 and preamble <font color="#FF3333">[전체] 야광수박 (잭스): </font>
+001463.114| ALWAYS| Chat received valid message: 으악 with speaker DisplayName YaMang OwO#KR1 and preamble <font color="#40C1FF">[팀] YaMang OwO (티모): </font>
+001464.446| ALWAYS| Chat received valid message: 으악 with speaker DisplayName YaMang OwO#KR1 and preamble <font color="#40C1FF">[전체] YaMang OwO (티모): </font>
+001470.042| ALWAYS| Chat received valid message: 모르겠으면 공부해 with speaker DisplayName 야광수박#KR1 and preamble <font color="#FF3333">[전체] 야광수박 (잭스): </font>
+001472.462| ALWAYS| Chat received valid message: 티모 ㄹㅇ 하는거없네 with speaker DisplayName fldnfWF#KR1 and preamble <font color="#40C1FF">[팀] fldnfWF (리 신): </font>
+001477.861| ALWAYS| Chat received valid message: 어케 탑티모로 이따구 성적을내지 with speaker DisplayName fldnfWF#KR1 and preamble <font color="#40C1FF">[팀] fldnfWF (리 신): </font>
+001485.748| ALWAYS| Chat received valid message: ㅇㅂ ㅇ with speaker DisplayName YaMang OwO#KR1 and preamble <font color="#40C1FF">[팀] YaMang OwO (티모): </font>
+001520.346| ALWAYS| Chat received valid message: 점화? with speaker DisplayName 야광수박#KR1 and preamble <font color="#FF3333">[전체] 야광수박 (잭스): </font>
+001521.948| ALWAYS| Chat received valid message: 아니 with speaker DisplayName 전태양동무#KR1 and preamble <font color="#FF3333">[전체] 전태양동무 (모르가나): </font>
+001523.187| ALWAYS| Chat received valid message: 플까ㅓ지 with speaker DisplayName 전태양동무#KR1 and preamble <font color="#FF3333">[전체] 전태양동무 (모르가나): </font>
+001525.087| ALWAYS| Chat received valid message: 박진말어 with speaker DisplayName 전태양동무#KR1 and preamble <font color="#FF3333">[전체] 전태양동무 (모르가나): </font>
+001527.190| ALWAYS| Chat received valid message: 무서여 with speaker DisplayName 전태양동무#KR1 and preamble <font color="#FF3333">[전체] 전태양동무 (모르가나): </font>
+001537.297| ALWAYS| Chat received valid message: ㅋㅋㅋㅋ with speaker DisplayName 야광수박#KR1 and preamble <font color="#FF3333">[전체] 야광수박 (잭스): </font>
+001542.976| ALWAYS| Chat received valid message: 오늘 베스트 포토상 with speaker DisplayName 야광수박#KR1 and preamble <font color="#FF3333">[전체] 야광수박 (잭스): </font>
+001543.012| ALWAYS| Chat received valid message: 369 369 with speaker DisplayName 전태양동무#KR1 and preamble <font color="#FF3333">[전체] 전태양동무 (모르가나): </font>
+001561.640| ALWAYS| Chat received valid message: ㅋㅋㅋ with speaker DisplayName YaMang OwO#KR1 and preamble <font color="#40C1FF">[전체] YaMang OwO (티모): </font>
+001565.819| ALWAYS| Chat received valid message: 거 너무한거 아닌교 with speaker DisplayName YaMang OwO#KR1 and preamble <font color="#40C1FF">[전체] YaMang OwO (티모): </font>
+001571.121| ALWAYS| Successfully received v2 buddy create/update payload: 
+001571.121| ALWAYS| Successfully received v2 buddy gameName: 뉴비사용법, tagLine: 늅늅늅, summonerId: 91920508
+001595.098| ALWAYS| Chat received valid message: 재밍벗구만 with speaker DisplayName 전태양동무#KR1 and preamble <font color="#FF3333">[전체] 전태양동무 (모르가나): </font>
+001605.796| ALWAYS| Chat received valid message: 리신이가 남탓할땐가 with speaker DisplayName CALLIK#KR1 and preamble <font color="#FF3333">[전체] CALLIK (가렌): </font>
+001607.982| ALWAYS| Chat received valid message: 그럴수있찌 with speaker DisplayName YaMang OwO#KR1 and preamble <font color="#40C1FF">[전체] YaMang OwO (티모): </font>
+001612.164| ALWAYS| Chat received valid message: 이미 했어 with speaker DisplayName YaMang OwO#KR1 and preamble <font color="#40C1FF">[전체] YaMang OwO (티모): </font>
+001613.804| ALWAYS| Chat received valid message: 나한태 with speaker DisplayName YaMang OwO#KR1 and preamble <font color="#40C1FF">[전체] YaMang OwO (티모): </font>
+001637.762| ALWAYS| Chat received valid message: 리신이는 누가 범인인지 모르나보네 with speaker DisplayName CALLIK#KR1 and preamble <font color="#FF3333">[전체] CALLIK (가렌): </font>
+001671.551| ALWAYS| Chat received valid message: 아 with speaker DisplayName 강철죽#KR1 and preamble <font color="#40C1FF">[팀] 강철죽 (말파이트): </font>
+001672.836| ALWAYS| Chat received valid message: 요네 with speaker DisplayName 강철죽#KR1 and preamble <font color="#40C1FF">[팀] 강철죽 (말파이트): </font>
+001674.216| ALWAYS| Chat received valid message: 잘했는데 with speaker DisplayName 강철죽#KR1 and preamble <font color="#40C1FF">[팀] 강철죽 (말파이트): </font>
+001680.422| ALWAYS| Chat received valid message: 아무도 없었다 with speaker DisplayName 강철죽#KR1 and preamble <font color="#40C1FF">[팀] 강철죽 (말파이트): </font>
+001706.361| ALWAYS| Chat received valid message: 잭스 가 너무 무섭다 with speaker DisplayName YaMang OwO#KR1 and preamble <font color="#40C1FF">[전체] YaMang OwO (티모): </font>
+001711.099| ALWAYS| Chat received valid message: 리신 아이언 탈출한지 얼마 안됐음 축하해주셈 with speaker DisplayName 왁 코#KR1 and preamble <font color="#40C1FF">[전체] 왁 코 (야스오): </font>
+001717.923| ALWAYS| Chat received valid message: ㅊㅊ with speaker DisplayName 강철죽#KR1 and preamble <font color="#40C1FF">[전체] 강철죽 (말파이트): </font>
+001728.713| ALWAYS| Chat received valid message: 스오 거기까지. with speaker DisplayName CALLIK#KR1 and preamble <font color="#FF3333">[전체] CALLIK (가렌): </font>
+001731.987| ALWAYS| Chat received valid message: ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ with speaker DisplayName 강철죽#KR1 and preamble <font color="#40C1FF">[전체] 강철죽 (말파이트): </font>
+001739.983| ALWAYS| Successfully received v2 buddy create/update payload: 
+001739.983| ALWAYS| Successfully received v2 buddy gameName: 뉴비사용법, tagLine: 늅늅늅, summonerId: 91920508
+001740.194| ALWAYS| Chat received valid message: 너도 아이언이야? with speaker DisplayName 왁 코#KR1 and preamble <font color="#40C1FF">[전체] 왁 코 (야스오): </font>
+001741.357| ALWAYS| Chat received valid message: 근데 리신욕하기엔 with speaker DisplayName 짬처리전문가#KR1 and preamble <font color="#FF3333">[전체] 짬처리전문가 (진): </font>
+001744.067| ALWAYS| Chat received valid message: 잘 있어라 with speaker DisplayName CALLIK#KR1 and preamble <font color="#FF3333">[전체] CALLIK (가렌): </font>
+001748.348| ALWAYS| Chat received valid message: kda가 웃긴뎅 with speaker DisplayName 짬처리전문가#KR1 and preamble <font color="#FF3333">[전체] 짬처리전문가 (진): </font>
+001749.470| ALWAYS| Chat received valid message: 아냐안 with speaker DisplayName 전태양동무#KR1 and preamble <font color="#FF3333">[전체] 전태양동무 (모르가나): </font>
+001753.471| ALWAYS| Chat received valid message: 스오 느낌이싸 with speaker DisplayName 전태양동무#KR1 and preamble <font color="#FF3333">[전체] 전태양동무 (모르가나): </font>
+001779.189| ALWAYS| Chat received valid message: ? with speaker DisplayName fldnfWF#KR1 and preamble <font color="#40C1FF">[전체] fldnfWF (리 신): </font>
+001782.785| ALWAYS| Chat received valid message: 둘다 귀엽네 with speaker DisplayName CALLIK#KR1 and preamble <font color="#FF3333">[전체] CALLIK (가렌): </font>
+001798.398| ALWAYS| Chat received valid message: 아니 몰가야 with speaker DisplayName 강철죽#KR1 and preamble <font color="#40C1FF">[전체] 강철죽 (말파이트): </font>
+001800.066| ALWAYS| Chat received valid message: 춤 추면 with speaker DisplayName 강철죽#KR1 and preamble <font color="#40C1FF">[전체] 강철죽 (말파이트): </font>
+001802.327| ALWAYS| Chat received valid message: 춤으로 받아줘야지 with speaker DisplayName 강철죽#KR1 and preamble <font color="#40C1FF">[전체] 강철죽 (말파이트): </font>
+001803.667| ALWAYS| Chat received valid message: 비겁하게 with speaker DisplayName 강철죽#KR1 and preamble <font color="#40C1FF">[전체] 강철죽 (말파이트): </font>
+001804.534| ALWAYS| Chat received valid message: 가렌형 with speaker DisplayName YaMang OwO#KR1 and preamble <font color="#40C1FF">[전체] YaMang OwO (티모): </font>
+001805.903| ALWAYS| Chat received valid message: ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ with speaker DisplayName 전태양동무#KR1 and preamble <font color="#FF3333">[전체] 전태양동무 (모르가나): </font>
+001806.932| ALWAYS| Chat received valid message: 강심좀줘 with speaker DisplayName YaMang OwO#KR1 and preamble <font color="#40C1FF">[전체] YaMang OwO (티모): </font>
+001813.675| ALWAYS| Chat received valid message: 근로자의날.. with speaker DisplayName 전태양동무#KR1 and preamble <font color="#FF3333">[전체] 전태양동무 (모르가나): </font>
+001827.761| ALWAYS| Chat received valid message: 잭스 보면 도망가 with speaker DisplayName YaMang OwO#KR1 and preamble <font color="#40C1FF">[전체] YaMang OwO (티모): </font>
+001867.170| ALWAYS| Chat received valid message: 읔 with speaker DisplayName CALLIK#KR1 and preamble <font color="#FF3333">[전체] CALLIK (가렌): </font>
+001870.491| ALWAYS| Chat received valid message: 아프당 with speaker DisplayName CALLIK#KR1 and preamble <font color="#FF3333">[전체] CALLIK (가렌): </font>
+001871.439| ALWAYS| Chat received valid message: 어쉬 마시따 with speaker DisplayName YaMang OwO#KR1 and preamble <font color="#40C1FF">[전체] YaMang OwO (티모): </font>
+001871.884| ALWAYS| Chat received valid message: 미끼였 구먼 with speaker DisplayName 야광수박#KR1 and preamble <font color="#FF3333">[전체] 야광수박 (잭스): </font>
+001885.807| ALWAYS| Chat received valid message: 아프당면 ㅎ with speaker DisplayName CALLIK#KR1 and preamble <font color="#FF3333">[전체] CALLIK (가렌): </font>
+001893.079| ALWAYS| Chat received valid message: 바론 맛있니 with speaker DisplayName CALLIK#KR1 and preamble <font color="#FF3333">[전체] CALLIK (가렌): </font>
+001908.002| ALWAYS| Chat received valid message: 천천히 먹어 with speaker DisplayName CALLIK#KR1 and preamble <font color="#FF3333">[전체] CALLIK (가렌): </font>
+001909.120| ALWAYS| Chat received valid message: 체해 with speaker DisplayName CALLIK#KR1 and preamble <font color="#FF3333">[전체] CALLIK (가렌): </font>
+001919.672| ALWAYS| Chat received valid message: 고마워 with speaker DisplayName 강철죽#KR1 and preamble <font color="#40C1FF">[전체] 강철죽 (말파이트): </font>
+001923.509| ALWAYS| Chat received valid message: 꼭꼭씹어먹었어 with speaker DisplayName 강철죽#KR1 and preamble <font color="#40C1FF">[전체] 강철죽 (말파이트): </font>
+001927.430| ALWAYS| Chat received valid message: 굿 with speaker DisplayName CALLIK#KR1 and preamble <font color="#FF3333">[전체] CALLIK (가렌): </font>
+002001.159| ALWAYS| Chat received valid message: 한타한번 조져보까 with speaker DisplayName 전태양동무#KR1 and preamble <font color="#FF3333">[전체] 전태양동무 (모르가나): </font>
+002001.962| ALWAYS| Chat received valid message: 애드라 with speaker DisplayName 전태양동무#KR1 and preamble <font color="#FF3333">[전체] 전태양동무 (모르가나): </font>
+002009.135| ALWAYS| Chat received valid message: ㅂ2 with speaker DisplayName CALLIK#KR1 and preamble <font color="#FF3333">[전체] CALLIK (가렌): </font>
+002015.599| ALWAYS| Chat received valid message: 왜케 빨라 with speaker DisplayName YaMang OwO#KR1 and preamble <font color="#40C1FF">[전체] YaMang OwO (티모): </font>
+002072.972| ALWAYS| Chat received valid message: 근로자의 날이니까 with speaker DisplayName 강철죽#KR1 and preamble <font color="#40C1FF">[전체] 강철죽 (말파이트): </font>
+002078.603| ALWAYS| Chat received valid message: 푹 쉬어 with speaker DisplayName 강철죽#KR1 and preamble <font color="#40C1FF">[전체] 강철죽 (말파이트): </font>
+002085.435| ALWAYS| Chat received valid message: 으앜 with speaker DisplayName YaMang OwO#KR1 and preamble <font color="#40C1FF">[전체] YaMang OwO (티모): </font>
+002096.530| ALWAYS| Chat received valid message: 가렌 이뇨석 with speaker DisplayName YaMang OwO#KR1 and preamble <font color="#40C1FF">[전체] YaMang OwO (티모): </font>
+002157.482| ALWAYS| Chat received valid message: 티모 with speaker DisplayName 강철죽#KR1 and preamble <font color="#40C1FF">[전체] 강철죽 (말파이트): </font>
+002161.136| ALWAYS| Chat received valid message: 몸이 with speaker DisplayName 강철죽#KR1 and preamble <font color="#40C1FF">[팀] 강철죽 (말파이트): </font>
+002162.739| ALWAYS| Chat received valid message: 왜케 약해 with speaker DisplayName 강철죽#KR1 and preamble <font color="#40C1FF">[팀] 강철죽 (말파이트): </font>
+002167.039| ALWAYS| Chat received valid message: 몰랑 with speaker DisplayName YaMang OwO#KR1 and preamble <font color="#40C1FF">[팀] YaMang OwO (티모): </font>
+002170.976| ALWAYS| Chat received valid message: 체력만 높아 with speaker DisplayName YaMang OwO#KR1 and preamble <font color="#40C1FF">[팀] YaMang OwO (티모): </font>
+002174.471| ALWAYS| Chat received valid message: 해작이라도 with speaker DisplayName 강철죽#KR1 and preamble <font color="#40C1FF">[팀] 강철죽 (말파이트): </font>
+002176.742| ALWAYS| Chat received valid message: 가야하는거 아니냐 with speaker DisplayName 강철죽#KR1 and preamble <font color="#40C1FF">[팀] 강철죽 (말파이트): </font>
+002184.750| ALWAYS| Chat received valid message: 근데 with speaker DisplayName 강철죽#KR1 and preamble <font color="#40C1FF">[팀] 강철죽 (말파이트): </font>
+002185.991| ALWAYS| Chat received valid message: 탱가면 with speaker DisplayName 강철죽#KR1 and preamble <font color="#40C1FF">[팀] 강철죽 (말파이트): </font>
+002187.761| ALWAYS| Chat received valid message: 별로일듯 with speaker DisplayName 강철죽#KR1 and preamble <font color="#40C1FF">[팀] 강철죽 (말파이트): </font>
+002187.860| ALWAYS| Chat received valid message: 그림자불꽃 with speaker DisplayName YaMang OwO#KR1 and preamble <font color="#40C1FF">[팀] YaMang OwO (티모): </font>
+002190.268| ALWAYS| Chat received valid message: 만 올리고 with speaker DisplayName YaMang OwO#KR1 and preamble <font color="#40C1FF">[팀] YaMang OwO (티모): </font>
+002191.610| ALWAYS| Chat received valid message: 말파야 with speaker DisplayName 전태양동무#KR1 and preamble <font color="#FF3333">[전체] 전태양동무 (모르가나): </font>
+002193.074| ALWAYS| Chat received valid message: 해작 사볼겡 with speaker DisplayName YaMang OwO#KR1 and preamble <font color="#40C1FF">[팀] YaMang OwO (티모): </font>
+002193.076| ALWAYS| Chat received valid message: 걍 with speaker DisplayName 강철죽#KR1 and preamble <font color="#40C1FF">[팀] 강철죽 (말파이트): </font>
+002194.077| ALWAYS| Chat received valid message: ap with speaker DisplayName 강철죽#KR1 and preamble <font color="#40C1FF">[팀] 강철죽 (말파이트): </font>
+002194.508| ALWAYS| Chat received valid message: 이젠 끝낼게 with speaker DisplayName 전태양동무#KR1 and preamble <font color="#FF3333">[전체] 전태양동무 (모르가나): </font>
+002195.933| ALWAYS| Chat received valid message: 올려 with speaker DisplayName 강철죽#KR1 and preamble <font color="#40C1FF">[팀] 강철죽 (말파이트): </font>
+002200.123| ALWAYS| Chat received valid message: 똥마려 with speaker DisplayName 전태양동무#KR1 and preamble <font color="#FF3333">[전체] 전태양동무 (모르가나): </font>
+002200.887| ALWAYS| Chat received valid message: 해작 별로일거같은디ㅣ with speaker DisplayName 강철죽#KR1 and preamble <font color="#40C1FF">[팀] 강철죽 (말파이트): </font>
+002204.812| ALWAYS| Chat received valid message: 뭐살까 with speaker DisplayName YaMang OwO#KR1 and preamble <font color="#40C1FF">[팀] YaMang OwO (티모): </font>
+002216.596| ALWAYS| Chat received valid message: 근데 with speaker DisplayName 강철죽#KR1 and preamble <font color="#40C1FF">[팀] 강철죽 (말파이트): </font>
+002218.162| ALWAYS| Chat received valid message: 티모면일단 with speaker DisplayName 강철죽#KR1 and preamble <font color="#40C1FF">[팀] 강철죽 (말파이트): </font>
+002219.495| ALWAYS| Chat received valid message: 악의는 with speaker DisplayName 강철죽#KR1 and preamble <font color="#40C1FF">[팀] 강철죽 (말파이트): </font>
+002221.366| ALWAYS| Chat received valid message: 장로가자 with speaker DisplayName fldnfWF#KR1 and preamble <font color="#40C1FF">[팀] fldnfWF (리 신): </font>
+002222.040| ALWAYS| Chat received valid message: 우린 with speaker DisplayName fldnfWF#KR1 and preamble <font color="#40C1FF">[팀] fldnfWF (리 신): </font>
+002223.183| ALWAYS| Chat received valid message: 있어야하지 ㅇ낳을까 with speaker DisplayName 강철죽#KR1 and preamble <font color="#40C1FF">[팀] 강철죽 (말파이트): </font>
+002232.078| ALWAYS| Chat received valid message: 옹 with speaker DisplayName YaMang OwO#KR1 and preamble <font color="#40C1FF">[팀] YaMang OwO (티모): </font>
+002233.911| ALWAYS| Chat received valid message: 이런템도있엇네 with speaker DisplayName YaMang OwO#KR1 and preamble <font color="#40C1FF">[팀] YaMang OwO (티모): </font>
+002295.135| ALWAYS| Chat received valid message: ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ with speaker DisplayName CALLIK#KR1 and preamble <font color="#FF3333">[전체] CALLIK (가렌): </font>
+002299.977| ALWAYS| Chat received valid message: 리신아 with speaker DisplayName CALLIK#KR1 and preamble <font color="#FF3333">[전체] CALLIK (가렌): </font>
+002300.907| ALWAYS| Chat received valid message: 힘내라 with speaker DisplayName CALLIK#KR1 and preamble <font color="#FF3333">[전체] CALLIK (가렌): </font>
+002308.478| ALWAYS| Chat received valid message: 리신 유통기한 옴? with speaker DisplayName 야광수박#KR1 and preamble <font color="#FF3333">[전체] 야광수박 (잭스): </font>
+002321.479| ALWAYS| Chat received valid message: q를 못맞춤 with speaker DisplayName CALLIK#KR1 and preamble <font color="#FF3333">[전체] CALLIK (가렌): </font>
+002333.706| ALWAYS| Chat received valid message: 장로 with speaker DisplayName 강철죽#KR1 and preamble <font color="#40C1FF">[팀] 강철죽 (말파이트): </font>
+002335.942| ALWAYS| Chat received valid message: 뺏었는데 with speaker DisplayName 강철죽#KR1 and preamble <font color="#40C1FF">[팀] 강철죽 (말파이트): </font>
+002341.339| ALWAYS| Chat received valid message: ㅈㅈ|? with speaker DisplayName 전태양동무#KR1 and preamble <font color="#FF3333">[전체] 전태양동무 (모르가나): </font>
+002342.502| ALWAYS| Chat received valid message: 집 with speaker DisplayName fldnfWF#KR1 and preamble <font color="#40C1FF">[팀] fldnfWF (리 신): </font>
+002342.647| ALWAYS| Chat received valid message: ㅋㅋㅋ with speaker DisplayName 전태양동무#KR1 and preamble <font color="#FF3333">[전체] 전태양동무 (모르가나): </font>
+002342.971| ALWAYS| Chat received valid message: 집 with speaker DisplayName fldnfWF#KR1 and preamble <font color="#40C1FF">[팀] fldnfWF (리 신): </font>
+002343.335| ALWAYS| Chat received valid message: 집 with speaker DisplayName fldnfWF#KR1 and preamble <font color="#40C1FF">[팀] fldnfWF (리 신): </font>
+002344.007| ALWAYS| Chat received valid message: 수굥 with speaker DisplayName 전태양동무#KR1 and preamble <font color="#FF3333">[전체] 전태양동무 (모르가나): </font>
+002347.511| ALWAYS| Chat received valid message: ㅋㅋㅋㅋㅋㅋㅋ with speaker DisplayName 강스터이 #KR1 and preamble <font color="#FF3333">[전체] 강스터이  (스카너): </font>
+002349.686| ALWAYS| Chat received valid message: 요내ㅔ야 with speaker DisplayName 전태양동무#KR1 and preamble <font color="#FF3333">[전체] 전태양동무 (모르가나): </font>
+002350.906| ALWAYS| Chat received valid message: 집가야징 with speaker DisplayName 전태양동무#KR1 and preamble <font color="#FF3333">[전체] 전태양동무 (모르가나): </font>
+002353.744| ALWAYS| Chat received valid message: 빠빠 with speaker DisplayName 전태양동무#KR1 and preamble <font color="#FF3333">[전체] 전태양동무 (모르가나): </font>
+002355.640| ALWAYS| Chat received valid message: 입털면 저야지 with speaker DisplayName 강스터이 #KR1 and preamble <font color="#FF3333">[전체] 강스터이  (스카너): </font>
+002376.836| ALWAYS| Chat received valid message: 우리팀 쓸모없넹 with speaker DisplayName CALLIK#KR1 and preamble <font color="#FF3333">[전체] CALLIK (가렌): </font>
+002378.469| ALWAYS| X3D: Focus Lost
+002398.356| ALWAYS| X3D: Focus Gained
+002403.395| ALWAYS| Chat received valid message: 애들아 with speaker DisplayName CALLIK#KR1 and preamble <font color="#FF3333">[전체] CALLIK (가렌): </font>
+002404.131| ALWAYS| Chat received valid message: 전쳇 니네팀이 먼저 쳤는데 with speaker DisplayName YaMang OwO#KR1 and preamble <font color="#40C1FF">[전체] YaMang OwO (티모): </font>
+002404.527| ALWAYS| Chat received valid message: 니네가 with speaker DisplayName CALLIK#KR1 and preamble <font color="#FF3333">[전체] CALLIK (가렌): </font>
+002406.293| ALWAYS| Chat received valid message: 이겼다 with speaker DisplayName CALLIK#KR1 and preamble <font color="#FF3333">[전체] CALLIK (가렌): </font>
+002415.095| ALWAYS| Chat received valid message: 우리 이제 다 즐겨서 with speaker DisplayName CALLIK#KR1 and preamble <font color="#FF3333">[전체] CALLIK (가렌): </font>
+002417.003| ALWAYS| Chat received valid message: 유통기한옴 with speaker DisplayName CALLIK#KR1 and preamble <font color="#FF3333">[전체] CALLIK (가렌): </font>
+002425.203| ALWAYS| Chat received valid message: 몰가도 with speaker DisplayName CALLIK#KR1 and preamble <font color="#FF3333">[전체] CALLIK (가렌): </font>
+002427.072| ALWAYS| Chat received valid message: ㅋㅋ with speaker DisplayName CALLIK#KR1 and preamble <font color="#FF3333">[전체] CALLIK (가렌): </font>
+002452.315| ALWAYS| Chat received valid message: 가렌아 with speaker DisplayName YaMang OwO#KR1 and preamble <font color="#40C1FF">[전체] YaMang OwO (티모): </font>
+002454.282| ALWAYS| Chat received valid message: 빽도하게? with speaker DisplayName YaMang OwO#KR1 and preamble <font color="#40C1FF">[전체] YaMang OwO (티모): </font>
+002463.203| ALWAYS| Chat received valid message: ㅈ집 with speaker DisplayName 강철죽#KR1 and preamble <font color="#40C1FF">[팀] 강철죽 (말파이트): </font>
+002463.637| ALWAYS| Chat received valid message: 집 with speaker DisplayName 강철죽#KR1 and preamble <font color="#40C1FF">[팀] 강철죽 (말파이트): </font>
+002464.072| ALWAYS| Chat received valid message: 집 with speaker DisplayName 강철죽#KR1 and preamble <font color="#40C1FF">[팀] 강철죽 (말파이트): </font>
+002472.412| ALWAYS| Chat received valid message: 끄악 with speaker DisplayName YaMang OwO#KR1 and preamble <font color="#40C1FF">[전체] YaMang OwO (티모): </font>
+002472.881| ALWAYS| Chat received valid message: 얘네 with speaker DisplayName 왁 코#KR1 and preamble <font color="#40C1FF">[전체] 왁 코 (야스오): </font>
+002478.135| ALWAYS| Chat received valid message: 왜 with speaker DisplayName 강철죽#KR1 and preamble <font color="#40C1FF">[팀] 강철죽 (말파이트): </font>
+002478.252| ALWAYS| Chat received valid message: 너ㅗ무 쌔다 with speaker DisplayName YaMang OwO#KR1 and preamble <font color="#40C1FF">[전체] YaMang OwO (티모): </font>
+002478.601| ALWAYS| Chat received valid message: 집 with speaker DisplayName 강철죽#KR1 and preamble <font color="#40C1FF">[팀] 강철죽 (말파이트): </font>
+002479.471| ALWAYS| Chat received valid message: 안가지 with speaker DisplayName 강철죽#KR1 and preamble <font color="#40C1FF">[팀] 강철죽 (말파이트): </font>
+002487.896| ALWAYS| Chat received valid message: 스읍. with speaker DisplayName 강철죽#KR1 and preamble <font color="#40C1FF">[팀] 강철죽 (말파이트): </font>
+002487.998| ALWAYS| Chat received valid message: ㅋㅋㅋㅋ with speaker DisplayName 야광수박#KR1 and preamble <font color="#FF3333">[전체] 야광수박 (잭스): </font>
+002489.567| ALWAYS| Chat received valid message: 이겼네 with speaker DisplayName 짬처리전문가#KR1 and preamble <font color="#FF3333">[전체] 짬처리전문가 (진): </font>
+002489.931| ALWAYS| Chat received valid message: 역시 데마시아다 with speaker DisplayName YaMang OwO#KR1 and preamble <font color="#40C1FF">[전체] YaMang OwO (티모): </font>
+002490.327| ALWAYS| Chat received valid message: ㅈㅈ with speaker DisplayName CALLIK#KR1 and preamble <font color="#FF3333">[전체] CALLIK (가렌): </font>
+002491.041| ALWAYS| Chat received valid message: ㅉㅈ with speaker DisplayName 강스터이 #KR1 and preamble <font color="#FF3333">[전체] 강스터이  (스카너): </font>
+002491.860| ALWAYS| Chat received valid message: ㅈㅈ ! with speaker DisplayName YaMang OwO#KR1 and preamble <font color="#40C1FF">[전체] YaMang OwO (티모): </font>
+002493.226| ALWAYS| Chat received valid message: 집을 안보노 with speaker DisplayName 야광수박#KR1 and preamble <font color="#FF3333">[전체] 야광수박 (잭스): </font>
+002493.828| ALWAYS| Chat received valid message: ㅈㅈ with speaker DisplayName 강스터이 #KR1 and preamble <font color="#FF3333">[전체] 강스터이  (스카너): </font>
+002495.968| ALWAYS| Chat received valid message: 뭐야 with speaker DisplayName YaMang OwO#KR1 and preamble <font color="#40C1FF">[전체] YaMang OwO (티모): </font>
+002497.265| ALWAYS| Chat received valid message: ㅋ with speaker DisplayName CALLIK#KR1 and preamble <font color="#FF3333">[전체] CALLIK (가렌): </font>
+002497.894| ALWAYS| Chat received valid message: 하.. with speaker DisplayName fldnfWF#KR1 and preamble <font color="#40C1FF">[전체] fldnfWF (리 신): </font>
+002498.295| ALWAYS| Chat received valid message: 40분이나했네 ㅋㅋ with speaker DisplayName YaMang OwO#KR1 and preamble <font color="#40C1FF">[전체] YaMang OwO (티모): </font>
+002498.905| ALWAYS| Chat received valid message: ㅋㅋㅋ with speaker DisplayName 짬처리전문가#KR1 and preamble <font color="#FF3333">[전체] 짬처리전문가 (진): </font>
+002499.258| ALWAYS| Chat received valid message: 팀차이 ㅈㅈ with speaker DisplayName fldnfWF#KR1 and preamble <font color="#40C1FF">[전체] fldnfWF (리 신): </font>
+002500.393| ALWAYS| Chat received valid message: 진짜 개못한다 ㅋㅋ with speaker DisplayName 왁 코#KR1 and preamble <font color="#40C1FF">[팀] 왁 코 (야스오): </font>
+002500.706| ALWAYS|  FLOW| Switching Game State from GAMESTATE_GAMELOOP to GAMESTATE_ENDGAME for reason Received Game End Packet.
+002500.706| ALWAYS|  FLOW| ALE-8SDFH23F
+002502.461| ALWAYS|  FLOW| Switching Game State from GAMESTATE_ENDGAME to GAMESTATE_PRE_EXIT for reason Game ended normally.
+002502.466| ALWAYS|  CONN| Requesting disconnect (20)
+002502.466| ALWAYS|  FLOW| Switching Game State from GAMESTATE_PRE_EXIT to GAMESTATE_EXIT for reason PreExit Game State is Complete.
+002502.484| ALWAYS|  FLOW| Finished Main Loop
+002502.627| ALWAYS| =================== Perf Stats (all in ms) =========================
+002502.627| ALWAYS| Average Frame Time:    6.33
+002502.627| ALWAYS| Average FPS:           158.00 fps
+002502.627| ALWAYS| StdDev Frame Time:     1.50
+002502.627| ALWAYS| Max Frame Time:        193.21
+002502.627| ALWAYS| Ave GPU Frame Time:    2.17
+002502.627| ALWAYS| StdDev GPU Frame Time: 0.77
+002502.627| ALWAYS| Max GPU Frame Time:    96.36
+002502.627| ALWAYS| GPU Time Histogram:    [1,6452,183305,198368,671,4,0,0,0,0,3,0,0,0]
+002502.627| ALWAYS| Histogram Buckets:     [0.0,1.0,2.0,5.0,7.5,10.0,18.0,35.0,50.0,75.0,100.0,500.0,1000.0,340282346638528859811704183484516925440.0]
+002502.627| ALWAYS| Frame Time Histogram:  [0,0,0,55887,267473,61315,4020,67,19,15,1,7,0,0]
+002502.627| ALWAYS| Max Memory = 1117.789 / 2095.684 MiB (Active/Used)
+002502.872| ALWAYS|  FLOW| Cleanup Complete
+002502.878| ALWAYS|  FLOW| LCU Game End Status: GAMEFLOW_EVENT.GAME_COMPLETED Result: 200: SUCCESS
+002502.968| ALWAYS|  FLOW| Pop: Gameplay
+002503.131| ALWAYS|  FLOW| Pop: Gameplay complete  Current: GameSession
+002503.146| ALWAYS|  FLOW| Pop: GameSession
+002503.157| ALWAYS|  FLOW| ALE-8SDFH23F
+002503.162| ALWAYS|  FLOW| Pop: GameSession complete  Current: LoLCommon
+002503.176| ALWAYS|  FLOW| Push: LoLPostGame  Current: LoLCommon
+002503.187| ALWAYS|  FLOW| Push: LoLPostGame complete
+002503.205| ALWAYS|  FLOW| Pop: LoLPostGame
+002503.217| ALWAYS|  FLOW| Pop: LoLPostGame complete  Current: LoLCommon
+002503.235| ALWAYS|  FLOW| Pop: LoLCommon
+002503.246| ALWAYS|  FLOW| Pop: LoLCommon complete  Current: Bootstrap
+002503.262| ALWAYS|  FLOW| Pop: Bootstrap
+002503.276| ALWAYS| {"exit_code":"EXITCODE_NONE","messageType":"riot__game_client__connection_info","message_body":"Game exited"}
+002503.277| ALWAYS| AudioManagerWwise::Finit
+002503.295| ALWAYS|  FLOW| Destroying the renderer
+002503.295| ALWAYS| r3dRenderLayer::Close() enter
+002504.158| ALWAYS| r3dRenderLayer::Close() exit
