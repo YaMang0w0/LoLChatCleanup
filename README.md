@@ -30,3 +30,5 @@ LoL is located in the installation path\Logs\GameLogs\Time.
 ### r3dlog.txt 파일 경로 위치:
 롤 설치 경로\Logs\GameLogs\시간 안에 있습니다.
 
+※ 관전 경우 전체 만 표기 될 수 있습니다 (관전은 테스트 못해봄 파일이 없어서 못했습니다.)※
+※ In case of spectating, only the entire thing may be displayed (I can't test spectating because there is no file) ※
