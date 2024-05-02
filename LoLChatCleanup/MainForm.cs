@@ -42,55 +42,67 @@ namespace LoLChatCleanup
 
         private void ReadTextFile(string filePath)
         {
-            string[] lines = File.ReadAllLines(filePath);
-            Console.WriteLine(lines.Length);
-            var ownLine = lines.FirstOrDefault(x => x.Contains("**LOCAL**"));
-            var owndisplayName = Regex.Match(ownLine, @"'(.*?)'").Groups[1].Value;
-            var logstartTime = lines[0].Replace("000000.000| ALWAYS| Logging started at ", "");
-            this.Text += $" [ {owndisplayName} has Game ({logstartTime}) ]";
-            //채팅
-            foreach (string line in lines)
+            try
             {
-                //레드팀
-                if (line.Contains("TeamChaos"))
+                string[] lines = File.ReadAllLines(filePath);
+                Console.WriteLine(lines.Length);
+                var ownLine = lines.FirstOrDefault(x => x.Contains("**LOCAL**"));
+                var owndisplayName = Regex.Match(ownLine, @"'(.*?)'").Groups[1].Value;
+                var logstartTime = lines[0].Replace("000000.000| ALWAYS| Logging started at ", "");
+                this.Text += $" [ {owndisplayName} has Game ({logstartTime}) ]";
+                int avgTime = 0;
+
+                //채팅
+                foreach (string line in lines)
                 {
-                    var displayName = Regex.Match(line, @"'(.*?)'").Groups[1].Value;
-                    var champ = Regex.Match(line, @"Champion\((.*?)\)").Groups[1].Value;
-                    var l_line = Regex.Match(line, @"TeamBuilderRole\((.*?)\)").Groups[1].Value;
-                    rTeam.Items.Add($"{displayName}({champ}, {l_line})");
+                    if (line.Contains("GAMESTATE_GAMELOOP EndRender & EndFrame"))
+                    {
+                        string timestamp = Regex.Match(line, @"^(.*?)\|").Groups[1].Value;
+                        avgTime = (int)Math.Round(Convert.ToDouble(timestamp), 1);
+                    }
+                    //레드팀
+                    if (line.Contains("TeamChaos"))
+                    {
+                        var displayName = Regex.Match(line, @"'(.*?)'").Groups[1].Value;
+                        var champ = Regex.Match(line, @"Champion\((.*?)\)").Groups[1].Value;
+                        var l_line = Regex.Match(line, @"TeamBuilderRole\((.*?)\)").Groups[1].Value;
+                        rTeam.Items.Add($"{displayName}({champ}, {l_line})");
+                    }
+
+                    //블루팀
+                    if (line.Contains("TeamOrder"))
+                    {
+                        var displayName = Regex.Match(line, @"'(.*?)'").Groups[1].Value;
+                        var champ = Regex.Match(line, @"Champion\((.*?)\)").Groups[1].Value;
+                        var l_line = Regex.Match(line, @"TeamBuilderRole\((.*?)\)").Groups[1].Value;
+                        bTeam.Items.Add($"{displayName}({champ}, {l_line})");
+                    }
+
+                    if (line.Contains("Chat received valid message: "))
+                    {
+                        string displayName = Regex.Match(line, @"DisplayName\s(.*?)\sand").Groups[1].Value;
+                        string channel = Regex.Match(line, @"\[(.*?)\]").Groups[1].Value;
+                        string message = Regex.Match(line, @"Chat received valid message:\s(.*?)\swith speaker").Groups[1].Value;
+                        string timestamp = Regex.Match(line, @"^(.*?)\|").Groups[1].Value;
+
+                        DateTime startTime = DateTime.Parse(logstartTime);
+                        DateTime logTime = startTime.AddSeconds(Convert.ToDouble(timestamp));
+                        TimeSpan elapsedTime = logTime - startTime;
+                        var t = ConvertTime((int)elapsedTime.TotalSeconds, avgTime);
+
+                        ListViewItem lv = new ListViewItem();
+                        lv.Text = $"{t}";
+                        lv.SubItems.Add($"{channel}");
+                        lv.SubItems.Add($"{displayName}");
+                        lv.SubItems.Add($"{message}");
+
+                        listView1.Items.Add(lv);
+                    }
                 }
-
-                //블루팀
-                if (line.Contains("TeamOrder"))
-                {
-                    var displayName = Regex.Match(line, @"'(.*?)'").Groups[1].Value;
-                    var champ = Regex.Match(line, @"Champion\((.*?)\)").Groups[1].Value;
-                    var l_line = Regex.Match(line, @"TeamBuilderRole\((.*?)\)").Groups[1].Value;
-                    bTeam.Items.Add($"{displayName}({champ}, {l_line})");
-                }
-
-                if (line.Contains("Chat received valid message: "))
-                {
-                    string displayName = Regex.Match(line, @"DisplayName\s(.*?)\sand").Groups[1].Value;
-                    string channel = Regex.Match(line, @"\[(.*?)\]").Groups[1].Value;
-                    string message = Regex.Match(line, @"Chat received valid message:\s(.*?)\swith speaker").Groups[1].Value;
-                    string timestamp = Regex.Match(line, @"^(.*?)\|").Groups[1].Value;
-                    DateTime startTime = DateTime.Parse(logstartTime);
-                    DateTime logTime = startTime.AddSeconds(Convert.ToDouble(timestamp));
-                    TimeSpan elapsedTime = logTime - startTime;
-                    var t = ConvertTime((int)elapsedTime.TotalSeconds);
-
-                    ListViewItem lv = new ListViewItem();
-                    lv.Text = $"{t}";
-                    lv.SubItems.Add($"{channel}");
-                    lv.SubItems.Add($"{displayName}");
-                    lv.SubItems.Add($"{message}");
-
-                    listView1.Items.Add(lv);
-                }
-
-                
-
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show($"{ex.Message}");
             }
         }
 
@@ -160,9 +172,10 @@ namespace LoLChatCleanup
             }
         }
 
-        private string ConvertTime(int seconds)
+        private string ConvertTime(int seconds, int avgchatTime)
         {
-            seconds = seconds - 42;
+            Console.WriteLine(avgchatTime);
+            seconds = seconds - avgchatTime;
 
             int convertedHours = seconds / 3600;
             int convertedMinutes = (seconds % 3600) / 60;
