@@ -38,3 +38,5 @@ LoL is located in the installation path\Logs\GameLogs\Time.
 ## FAQ
 Q: 프로그램 실행이 안 돼요. (The program cannot run.)
 A: https://dotnet.microsoft.com/ko-kr/download/dotnet-framework/thank-you/net48-web-installer 프로그램을 설치 후 해보세요!
+
+시간이 1~3초 차이 날수 있습니다.
